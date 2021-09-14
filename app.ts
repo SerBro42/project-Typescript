@@ -1,7 +1,7 @@
 console.log('Time to get started!')
 
 //First of all, a number type test:
-function add(n1, n2) {
+function add(n1: number, n2: number) {
     return n1 + n2;
 }
 
