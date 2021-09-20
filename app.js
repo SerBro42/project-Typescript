@@ -7,7 +7,8 @@
 var person = {
     name: 'Sergey',
     age: 31,
-    hobbies: ['Wargaming', 'Programming']
+    hobbies: ['Wargaming', 'Programming'],
+    role: [2, 'author']
 };
 //This variable is declared as an array of strings
 var favouriteActivities;
@@ -21,3 +22,4 @@ for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
     //map() method is not allowed because it's a string array
     //console.log(hobby.map()) // !!! ERROR
 }
+console.log(person.role);

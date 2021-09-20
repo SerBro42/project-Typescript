@@ -5,10 +5,16 @@
 //} = {
 
 //This syntax is the better syntax:
-const person = {
+const person: {
+    name: string;
+    age: number;
+    hobbies: string[];
+    role: [number, string]; //This marks a tuple. It has exactly one number and one string
+} = {
     name: 'Sergey',
     age: 31,
-    hobbies: ['Wargaming', 'Programming']
+    hobbies: ['Wargaming', 'Programming'],
+    role: [2, 'author']
 };
 
 //This variable is declared as an array of strings
@@ -24,3 +30,5 @@ for (const hobby of person.hobbies) {
     //map() method is not allowed because it's a string array
     //console.log(hobby.map()) // !!! ERROR
 }
+
+console.log(person.role);
