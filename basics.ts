@@ -1,4 +1,5 @@
 console.log('Time to get started!')
+//This is a comment
 //Command to synchronise the code with the browser: nmp start.
 //Browsersync should give http://localhost:3000
 //First of all, a number type test:
